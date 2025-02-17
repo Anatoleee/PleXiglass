@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar&display=swap');
+
+:root {
+    background-color: #7886C7;
+}
+
+
+.container {
+
+}
+
+.title {
+    position: absolute;
+    margin: 1vw;
+    padding: 0;
+    font-size: 4.25vw;
+    font-family: Popins, sans-serif;
+}
+
+.titleX {
+    color: #ECB000;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+.error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 22vh 0 0 0;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Roboto", serif;
+}
+
+.card {
+    background-color: #FFF2F2;
+    width: 33vw;
+    height: auto;
+    max-width: 600px;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.madeby {
+    font-size: 1.25vw;
+    font-family: Popins, sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 1vw 1vw 0;
+}
+
+a {
+    color: black;
+}
+
+.button {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button:focus {
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-50 {
+        padding: 12px 50px;
+    }
+}
+
+.button2wrap {
+    margin: 6.5vh 0 0 0;
+}
+
+.button_submit {
+    margin: 0 0 1vh 0;
+    width: 14vw;
+    height: 5vh;
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 20px;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button_submit:focus {
+    text-decoration: none;
+}
+
+.button_submit:hover {
+    text-decoration: none;
+}
+
+.button_submit:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button_submit:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button_submit {
+        padding: 12px 50px;
+    }
+}
+
+.select {
+    border: black solid 1px;
+    margin: -100vw 0 1vh 0;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    border-radius: 4px;
+    width: 13vw;
+    height: 5vh;
+    text-align: center;
+    background-color: #F9F9FA;
+    font-size: 1vw;
+}
+
+.cardtitle {
+    margin: 1vh 0 0 0;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0 0 4vh 0;
+    text-decoration: black solid underline;
+}
+
+.user {
+    font-size: 1.7vw;
+}
+
+.titlecontent {
+    border: black solid 1px;
+    margin: -2vh 0 1vh 0;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    border-radius: 4px;
+    width: 13vw;
+    height: 3.5vh;
+    text-align: center;
+    background-color: #F9F9FA;
+    font-size: 1vw;
+}
