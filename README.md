@@ -35,6 +35,10 @@ PleXiglass est une application web permettant de soumettre des demandes d'ajout 
    npm install
    ```
 
+   ```bash
+   npm install nodemailer express cors dotenv
+   ```
+
 ## Configuration
 
 Ce projet utilise les variables suivantes :
